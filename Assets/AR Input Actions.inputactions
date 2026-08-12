@@ -1,0 +1,94 @@
+{
+    "name": "AR Input Actions",
+    "maps": [
+        {
+            "name": "ARTouchActions",
+            "id": "10c7cfc0-5f5e-4c8e-8507-98b9e7903234",
+            "actions": [
+                {
+                    "name": "PlaceObject",
+                    "type": "Value",
+                    "id": "871c588e-72a6-45d7-a02f-536ac9162948",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "SelectObject",
+                    "type": "Value",
+                    "id": "06d51efd-ef6c-4989-b095-075ba1612771",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MoveObject",
+                    "type": "Value",
+                    "id": "b97684e2-b180-41ec-8b28-ce398f4a0576",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "ResizeObject",
+                    "type": "PassThrough",
+                    "id": "1b9a498a-7520-42fb-8051-40adb682b54a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "74fb3702-2ba2-49ca-8847-6f58f4a715fb",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlaceObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5d1dc869-732c-4b4f-8342-f77d275313df",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SelectObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af87cc3b-1024-4448-b11d-d3bbf45533a5",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MoveObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fbb02af4-3a5a-43d0-b898-947a2c0604e4",
+                    "path": "<Touchscreen>/touch1/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResizeObject",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
